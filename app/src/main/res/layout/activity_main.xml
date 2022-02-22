@@ -11,21 +11,27 @@
     tools:context=".MainActivity">
 
     <TextView
-        android: id ="@+id/tv_app_name"
+        android:id="@+id/tv_app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text ="Pokemon Quiz"
-        android:gravity="center"
         android:layout_marginBottom="30dp"
+        android:fontFamily="@font/pokemon_solid"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:gravity="center"
+        android:outlineProvider="none"
+        android:text="@string/pokemon_quiz"
+        android:textColor="@android:color/holo_orange_light"
         android:textSize="25sp"
-        android:textStyle= "bold"
-        android: android:textColor="@android:color/black"
-      />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:textColor="#00695C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
