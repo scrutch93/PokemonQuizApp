@@ -79,11 +79,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@android:color/holo_green_dark"
+                android:background="#F44336"
+                android:fontFamily="@font/orange_kid"
                 android:text="Start"
                 android:textColor="#FFFFFF"
-                android:fontFamily="@font/orange_kid">
-            </Button>
+                android:textSize="20sp"></Button>
 
         </LinearLayout>
 
